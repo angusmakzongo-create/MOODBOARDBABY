@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moodboard — Template vierge</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0d0d0d;color:#f2f2f2;font-family:Inter,Arial,sans-serif}
+header{padding:48px 24px;border-bottom:1px solid #222;text-align:center}
+header h1{font-size:2.6rem;letter-spacing:.08em}
+header p{color:#888;margin-top:8px}
+main{max-width:1400px;margin:auto;padding:32px}
+section{margin-bottom:48px}
+h2{font-size:1.2rem;letter-spacing:.08em;margin-bottom:18px;color:#ddd}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:#141414;border:1px solid #242424;border-radius:18px;overflow:hidden}
+.drop{
+aspect-ratio:4/5;
+display:flex;align-items:center;justify-content:center;
+border-bottom:1px solid #242424;
+color:#555;font-size:.9rem;text-align:center;padding:12px;
+background:linear-gradient(180deg,#181818,#111)}
+.info{padding:16px}
+.info input{
+width:100%;background:transparent;border:none;color:white;
+font-size:1rem;font-weight:600;outline:none}
+.info textarea{
+margin-top:10px;width:100%;min-height:72px;background:transparent;
+border:none;color:#888;resize:vertical;outline:none;font-size:.9rem}
+@media print{body{background:white;color:black}.card{border:1px solid #bbb}}
+</style>
+</head>
+<body>
+<header>
+<h1>MOODBOARD</h1>
+<p>Template vierge • Une référence visuelle par carte</p>
+</header>
+
+<main>
+
+<section>
+<h2>COLORIMÉTRIE</h2>
+<div class="grid">
+<div class="card"><div class="drop">INSÉRER IMAGE</div><div class="info"><input value="Palette principale"><textarea>Couleurs dominantes.</textarea></div></div>
+<div class="card"><div class="drop">INSÉRER IMAGE</div><div class="info"><input value="Lumière"><textarea>Chaleur, contraste, exposition.</textarea></div></div>
+</div>
+</section>
+
+<section>
+<h2>TYPOGRAPHIE</h2>
+<div class="grid">
+<div class="card"><div class="drop">INSÉRER IMAGE</div><div class="info"><input value="Police principale"><textarea>Style de caractère.</textarea></div></div>
+<div class="card"><div class="drop">INSÉRER IMAGE</div><div class="info"><input value="Composition texte"><textarea>Hiérarchie et mise en page.</textarea></div></div>
+</div>
+</section>
+
+<section>
+<h2>TEXTURES</h2>
+<div class="grid">
+<div class="card"><div class="drop">INSÉRER IMAGE</div><div class="info"><input value="Texture 01"><textarea>Matière dominante.</textarea></div></div>
+<div class="card"><div class="drop">INSÉRER IMAGE</div><div class="info"><input value="Texture 02"><textarea>Grain, bruit, relief.</textarea></div></div>
+</div>
+</section>
+
+<section>
+<h2>IMAGERIE</h2>
+<div class="grid">
+<div class="card"><div class="drop">INSÉRER IMAGE</div><div class="info"><input value="Référence visuelle"><textarea>Ambiance générale.</textarea></div></div>
+<div class="card"><div class="drop">INSÉRER IMAGE</div><div class="info"><input value="Cadrage"><textarea>Composition, perspective.</textarea></div></div>
+</div>
+</section>
+
+<section>
+<h2>EFFETS</h2>
+<div class="grid">
+<div class="card"><div class="drop">INSÉRER IMAGE</div><div class="info"><input value="Flou / Bloom"><textarea>Effets optiques.</textarea></div></div>
+<div class="card"><div class="drop">INSÉRER IMAGE</div><div class="info"><input value="Distorsion"><textarea>Traitement d'image.</textarea></div></div>
+</div>
+</section>
+
+<section>
+<h2>COMPOSITION</h2>
+<div class="grid">
+<div class="card"><div class="drop">INSÉRER IMAGE</div><div class="info"><input value="Grille"><textarea>Organisation visuelle.</textarea></div></div>
+<div class="card"><div class="drop">INSÉRER IMAGE</div><div class="info"><input value="Espaces"><textarea>Respiration, équilibre.</textarea></div></div>
+</div>
+</section>
+
+</main>
+</body>
+</html>
